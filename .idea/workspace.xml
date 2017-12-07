@@ -6,6 +6,8 @@
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-properties/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-druid-jpa/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-druid-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-quickstart/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,11 +49,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringBootDruidJpaApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SpringBootDruidJpaApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-druid-jpa/src/main/java/cn/iflyapi/SpringBootDruidJpaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-druid-jpa/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -188,41 +200,6 @@
               <item name="spring-boot-samples" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-samples" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-boot-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-druid-jpa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-druid-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-druid-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-druid-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-druid-jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="iflyapi" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -263,6 +240,12 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.iflyapi.SpringBootDruidJpaApplication" />
       <module name="spring-boot-druid-jpa" />
+      <envs />
+    </configuration>
+    <configuration name="SpringBootDruidMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.iflyapi.SpringBootDruidMybatisApplication" />
+      <module name="spring-boot-druid-mybatis" />
       <envs />
     </configuration>
     <configuration name="SpringBootPropertiesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -320,6 +303,12 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration name="SpringBootQuickstartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.iflyapi.SpringBootQuickstartApplication" />
+      <module name="spring-boot-quickstart" />
+      <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -402,11 +391,13 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.SpringBootPropertiesApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.SpringBootDruidJpaApplication" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.SpringBootPropertiesApplicationTests.testSimpleProperties" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.SpringBootPropertiesApplicationTests.testComplexProperties" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.SpringBootDruidMybatisApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.SpringBootQuickstartApplication" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -426,7 +417,7 @@
       <option name="presentableId" value="Default" />
       <updated>1512625771424</updated>
       <workItem from="1512625774500" duration="4414000" />
-      <workItem from="1512630571884" duration="86000" />
+      <workItem from="1512630571884" duration="504000" />
     </task>
     <servers />
   </component>
@@ -439,7 +430,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4500000" />
+    <option name="totallyTimeSpent" value="4918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -453,7 +444,8 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22460657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22460657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -609,6 +601,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-druid-jpa/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
