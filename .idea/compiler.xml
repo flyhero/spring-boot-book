@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-druid-jpa" />
         <module name="spring-boot-properties" />
         <module name="spring-boot-samples" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-boot-druid-jpa" target="1.8" />
       <module name="spring-boot-properties" target="1.8" />
       <module name="spring-boot-samples" target="1.5" />
     </bytecodeTargetLevel>
