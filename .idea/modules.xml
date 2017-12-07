@@ -3,12 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-boot-druid-jpa/spring-boot-druid-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-druid-jpa/spring-boot-druid-jpa.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-druid-jpa/spring-boot-druid-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-druid-jpa/spring-boot-druid-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-druid-mybatis/spring-boot-druid-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-druid-mybatis/spring-boot-druid-mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-properties/spring-boot-properties.iml" filepath="$PROJECT_DIR$/spring-boot-properties/spring-boot-properties.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-properties/spring-boot-properties.iml" filepath="$PROJECT_DIR$/spring-boot-properties/spring-boot-properties.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-quickstart/spring-boot-quickstart.iml" filepath="$PROJECT_DIR$/spring-boot-quickstart/spring-boot-quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-samples.iml" filepath="$PROJECT_DIR$/spring-boot-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-task-quartz/spring-boot-task-quartz.iml" filepath="$PROJECT_DIR$/spring-boot-task-quartz/spring-boot-task-quartz.iml" />
     </modules>
   </component>
 </project>
