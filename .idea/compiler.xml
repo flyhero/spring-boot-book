@@ -12,6 +12,7 @@
         <module name="spring-boot-quickstart" />
         <module name="spring-boot-samples" />
         <module name="spring-boot-task-quartz" />
+        <module name="spring-boot-thymeleaf" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="spring-boot-quickstart" target="1.8" />
       <module name="spring-boot-samples" target="1.5" />
       <module name="spring-boot-task-quartz" target="1.8" />
+      <module name="spring-boot-thymeleaf" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

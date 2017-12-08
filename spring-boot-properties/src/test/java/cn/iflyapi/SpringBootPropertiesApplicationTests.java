@@ -47,5 +47,8 @@ public class SpringBootPropertiesApplicationTests {
 	public void testComplexProperties(){
 		Assert.assertNotNull(tipsProperties);
 		System.out.println("code:"+tipsProperties.getCode());
+		for(String s:tipsProperties.getList()){
+			System.out.println(s);
+		}
 	}
 }
