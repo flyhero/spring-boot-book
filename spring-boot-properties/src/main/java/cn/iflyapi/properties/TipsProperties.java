@@ -11,6 +11,7 @@ import java.util.List;
  * Date: 2017-12-07 下午2:04
  */
 @Component
+//@PropertySource("tips.properties")
 @ConfigurationProperties(prefix = "tips")
 public class TipsProperties {
 
