@@ -11,6 +11,7 @@ public class SpringBootTaskQuartzApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
 	}
 
 }

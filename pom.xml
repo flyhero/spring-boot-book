@@ -14,6 +14,15 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <modules>
+    <module>spring-boot-druid-jpa</module>
+    <module>spring-boot-druid-mybatis</module>
+    <module>spring-boot-properties</module>
+    <module>spring-boot-quickstart</module>
+    <module>spring-boot-task-quartz</module>
+    <module>spring-boot-thymeleaf</module>
+  </modules>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>

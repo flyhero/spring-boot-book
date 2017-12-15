@@ -21,6 +21,33 @@ public class SpringBootDruidMybatisApplicationTests {
 	private CustomerMapper customerMapper;
 
 
+
+	@Test
+	public void testFindByLastName(){
+		Customer customer =customerMapper.findByLastName("fei");
+		Assert.assertNotNull(customer);
+		System.out.println(customer.toString());
+	}
+	@Test
+	public void testSaveCustomer(){
+		Customer customer = new Customer();
+		customer.setFirstName("hang");
+		customer.setLastName("zhang");
+		customerMapper.saveCustomer(customer);
+	}
+	@Test
+	public void testUpdateCustomer(){
+		Customer customer = new Customer();
+		customer.setId(3L);
+		customer.setFirstName("fei");
+		customer.setLastName("zhang");
+		customerMapper.updateCustomer(customer);
+	}
+	@Test
+	public void testDeleteCustomer(){
+		customerMapper.deleteCustomer(4L);
+	}
+
 	@Test
 	public void testSave(){
 		Customer customer = new Customer();
