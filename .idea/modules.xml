@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-properties/spring-boot-properties.iml" filepath="$PROJECT_DIR$/spring-boot-properties/spring-boot-properties.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-quickstart/spring-boot-quickstart.iml" filepath="$PROJECT_DIR$/spring-boot-quickstart/spring-boot-quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-samples.iml" filepath="$PROJECT_DIR$/spring-boot-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-security-oauth2/spring-boot-security-oauth2.iml" filepath="$PROJECT_DIR$/spring-boot-security-oauth2/spring-boot-security-oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-task-quartz/spring-boot-task-quartz.iml" filepath="$PROJECT_DIR$/spring-boot-task-quartz/spring-boot-task-quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" />
     </modules>

@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/spring-boot-task-quartz/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-security-oauth2/pom.xml" />
       </list>
     </option>
   </component>

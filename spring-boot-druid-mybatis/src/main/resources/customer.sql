@@ -5,7 +5,7 @@
  Source Server Type    : MySQL
  Source Server Version : 50719
  Source Host           : localhost
- Source Database       : justmeeting
+ Source Database       : springboot
 
  Target Server Type    : MySQL
  Target Server Version : 50719
